@@ -1,16 +1,17 @@
-## 14567-DESARROLLO WEB AVANZADO
-# Actividad 2: Desarrollo de una Aplicación Web
-
-## Descripción del Proyecto:
-
-...
-
-## Integrantes
+# 14567-DESARROLLO WEB AVANZADO
+## Actividad 2: Desarrollo de una Aplicación Web
+### Integrantes
 - Juan Pablo Pinza
 - Erick Mora
 - Ariel Rivadeneira
 
-### Deploy del proyecto:
+### Descripción del Proyecto:
+
+...
+
+
+
+#### Deploy del proyecto:
 
 ...
 
