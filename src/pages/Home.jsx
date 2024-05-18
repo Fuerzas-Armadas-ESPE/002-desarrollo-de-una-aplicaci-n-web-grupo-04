@@ -7,11 +7,28 @@ import { ImageGallery } from '../components/ImageGallery';
 import { ContactInfo } from '../components/ContactInfo';
 import ContactImage from '../utils/img/contact-img.jpg';
 import logoR from '../utils/img/logo-restaurante.png';
+import headerImg1 from '../utils/img/header-img.png';
+import headerImg2 from '../utils/img/header-img2.png';
+import headerImg3 from '../utils/img/header-img3.png';
+import headerImg4 from '../utils/img/lunch.jpg';
 function Home() {
+
+    const images = [headerImg1, headerImg2, headerImg3, headerImg4];
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentImageIndex(prevIndex => (prevIndex + 1) % images.length);
+        }, 5000); // Change image every 5 seconds
+        return () => clearInterval(interval);
+    }, [images.length]);
 
     return (
         <div className='home-page'>
-            <header className='h-100 min-vh-100 d-flex align-items-center text-light shadow'>
+            <header
+                className='h-100 min-vh-100 d-flex align-items-center text-light shadow'
+                style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
+            >
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-6 d-flex flex-column align-items-center' id='welcome-section'>

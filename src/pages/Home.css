@@ -1,12 +1,11 @@
 .home-page header {
-    background-image: url(../utils/img/header-img.png);
     width: 100%;
-}
-
-header {
     background-size: cover;
     background-position: center;
+    transition: background-image 0.5s ease-in-out;
 }
+
+
 
 #welcome-section {
     display: flex;
