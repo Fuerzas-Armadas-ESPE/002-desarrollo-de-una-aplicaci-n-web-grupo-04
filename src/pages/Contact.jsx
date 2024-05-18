@@ -60,10 +60,6 @@ function Contact() {
                     </div>
                 </div>
             </div>
-
-            <div className='bg-dark text-light py-5'>
-                <Reviews />
-            </div>
         </div>
     )
 }

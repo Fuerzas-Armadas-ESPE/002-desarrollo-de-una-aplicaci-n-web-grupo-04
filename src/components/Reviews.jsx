@@ -16,7 +16,8 @@ export function Reviews() {
                         <CardBody>
                             <div className="p-4">
                                 <CardText>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iste culpa perspiciatis. Magnam, explicabo cumque.
+                                ¡Una experiencia increíble!, me hizo sentir como si estuviera de vuelta en mi querido Ecuador. Probé el encebollado y fue simplemente espectacular, 
+                                con un sabor auténtico y una presentación impecable. Además, el ambiente es muy acogedor y el personal muy amable. Sin duda, regresaré pronto.
                                 </CardText>
                             </div>
                         </CardBody>
@@ -31,7 +32,8 @@ export function Reviews() {
                         <CardBody>
                             <div className="p-4">
                                 <CardText>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, mollitia?
+                                Este restaurante es un verdadero tesoro en la ciudad. La diversidad del menú es impresionante y cada plato que probé estaba lleno de sabor y frescura. Mi favorito fue el ceviche de camarón, 
+                                que tenía el equilibrio perfecto de acidez y frescura. Además, los chefs claramente conocen y aman lo que hacen. ¡Altamente recomendado!
                                 </CardText>
                             </div>
                         </CardBody>
@@ -46,7 +48,8 @@ export function Reviews() {
                         <CardBody>
                             <div className="p-4">
                                 <CardText>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolor itaque reprehenderit minus tempore. Iste quibusdam facilis excepturi nihil maiores!
+                                La Mesa de Todos se ha convertido en mi lugar favorito para disfrutar de la cocina ecuatoriana. El seco de chivo es simplemente perfecto, con la carne tierna y jugosa y 
+                                una mezcla de especias que me transportó directamente a los Andes. El servicio es excepcional, siempre atentos y amables. Un lugar que no te puedes perder
                                 </CardText>
                             </div>
                         </CardBody>
@@ -61,7 +64,8 @@ export function Reviews() {
                         <CardBody>
                             <div className="p-4">
                                 <CardText>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum et voluptate minus error suscipit officiis placeat repudiandae quibusdam officia tempora, reprehenderit, enim, quidem exercitationem laborum!
+                                ¡La fritada de La Mesa de Todos es la mejor que he probado fuera de Ecuador! La carne estaba perfectamente dorada y jugosa, y los acompañamientos eran frescos y deliciosos. Me encantó la mezcla de sabores y texturas, 
+                                realmente me transportó de vuelta a los días festivos en mi país. Sin duda, un lugar que visitaré con frecuencia.
                                 </CardText>
                             </div>
                         </CardBody>
