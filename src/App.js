@@ -39,8 +39,8 @@ function App() {
       </Routes>
 
       <footer className='bg-body-tertiary'>
-        <p className='p-3 m-0 text-center'>copyright @ made by Ionut Cora</p>
       </footer>
+        <p className='p-3 m-0 text-center'>La Casa de Todos - Derechos Reservados ©</p>
     </div>
   );
 }
