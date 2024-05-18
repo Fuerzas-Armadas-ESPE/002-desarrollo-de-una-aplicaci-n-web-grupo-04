@@ -8,6 +8,7 @@ import Menu from './pages/Menu';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
+
 function App() {
   return (
     <div>
@@ -15,16 +16,16 @@ function App() {
         <Container>
           <Navbar.Brand>
             <Link to="/" className='navbar-brand text-success fw-semibold'>
-              React Restaurant
+              La Mesa de Todos
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto justify-content-end w-100'>
-              <Nav.Link href='/' className='active text-uppercase'>Home</Nav.Link>
+              <Nav.Link href='/' className='active text-uppercase'>Inicio</Nav.Link>
               <Nav.Link href='/menu' className='text-uppercase'>Menu</Nav.Link>
-              <Nav.Link href='/about' className='text-uppercase'>About</Nav.Link>
-              <Nav.Link href='/contact' className='text-uppercase'>Contact</Nav.Link>
+              <Nav.Link href='/about' className='text-uppercase'>Sobre Nosotros</Nav.Link>
+              <Nav.Link href='/contact' className='text-uppercase'>Contactos</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
