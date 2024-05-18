@@ -1,5 +1,5 @@
 .home-page header {
-    background-image: url(../utils/img/header-img.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../utils/img/header-img.jpg);
 }
 
 header {
@@ -22,6 +22,10 @@ header h1 {
     background-position: center;
 }
 
+#find-us{
+    background: linear-gradient(62deg, #2e0f0f 10%, #000000 100%);
+}
+
 /* img {
     border-style: solid;
     border-width: 5px;
@@ -30,6 +34,11 @@ header h1 {
 .logo-restaurant{
     height: 400px;
     width: 450px;
+}
+
+.about-us{
+    background-color: aqua;
+    padding: 4%
 }
 
 @media only screen and (max-width: 768px) {
@@ -43,3 +52,9 @@ header h1 {
         font-size: 3rem;
     }
 }
+
+.img-fluid {
+    height: 1%;
+    width: 80%;
+}
+
