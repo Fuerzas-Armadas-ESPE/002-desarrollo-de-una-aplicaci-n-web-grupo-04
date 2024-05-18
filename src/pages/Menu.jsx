@@ -9,83 +9,102 @@ import DessertImg from '../utils/img/dessert.jpg';
 const breakfast = [
     {
         id: 1,
-        name: 'English Breakfast',
-        description: 'smoked bacon, sausage, tomato, mushrooms, black pudding, baked beans, eggs',
-        price: '£12'
+        name: 'Desayuno Costeño',
+        description: 'Tigrillo, Bistec de Carne, Huevo, Jugo y Café',
+        price: '$8'
     },
     {
         id: 2,
-        name: 'Avocado Toast',
-        description: 'poached egg, avocado, onion, tomatoes, bread',
-        price: '£8'
+        name: 'Desayuno Continental',
+        description: 'Café, chocolate o té, huevos, sanduche(jamón y queso), jugo',
+        price: '$5'
     },
     {
         id: 3,
-        name: 'Burrito',
-        description: 'tortilla, egg, cheese, potatoes, pork meat',
-        price: '£11'
+        name: 'Desayuno Americano',
+        description: 'huevos revueltos, tocino, pan, salchicha, cafe, jugo',
+        price: '$6'
     }
 ];
 const lunch = [
     {
         id: 1,
-        name: 'Caesar Salad',
-        description: 'chicken breast, romaine lettuce, croutons, parmesan',
-        price: '£15'
+        name: 'Bandeja de Fritada (2 Personas)',
+        description: 'porcion de fritada, tortilla de papa, maiz tostado, ensalada',
+        price: '$15'
     },
     {
         id: 2,
-        name: 'Spaghetti Carbonara',
-        description: 'spaghetti, pancetta, garlic, eggs, parmesan, pepper',
-        price: '£14'
+        name: 'Mix de Mariscos',
+        description: 'camarones apanados, cangrejo, arroz marinero, filete de pescado apanado, patacones',
+        price: '$13'
     },
     {
         id: 3,
-        name: 'Pizza',
-        description: 'chorizo, italian salami, tomatoes, mushrooms, olives',
-        price: '£12'
+        name: 'Encebollado',
+        description: 'sopa de pescado, yuca, cebolla morada encurtida, limón, maíz tostado',
+        price: '$7'
+    },
+    {
+        id: 4,
+        name: 'Llapingachos',
+        description: 'tortillas de papa rellenas de queso, chorizo, huevo frito, ensalada de remolacha, aguacate',
+        price: '$8'
+    },
+    {
+        id: 5,
+        name: 'Seco de Chivo',
+        description: 'guiso de carne de chivo, arroz, plátano maduro frito, aguacate, ensalada',
+        price: '$8'
+    },
+    {
+        id: 6,
+        name: 'Ceviche de Camarón',
+        description: 'camarones marinados en limón, cebolla, tomate, cilantro, acompañado de maíz tostado y chifles',
+        price: '$98'
     }
+    
 ];
 
 const dinner = [
     {
         id: 1,
-        name: 'Spicy Beef',
-        description: 'spicy beef, potatoes, carrots, cheese sauce, spices',
-        price: '£17'
+        name: 'Jugo de Coco',
+        description: 'Jarra de Jugo de Coco (2 litros)',
+        price: '$8'
     },
     {
         id: 2,
-        name: 'Spaghetti Bolognese',
-        description: 'onion, carrot, celery, minced meat, spaghetti, parmesan',
-        price: '£15'
+        name: 'Limonada',
+        description: 'Jarra de Limonada (2 litros)',
+        price: '$6'
     },
     {
         id: 3,
-        name: 'Chickpea Curry',
-        description: 'onion, chickpea, garlic, mushrooms, tomatoes, spices',
-        price: '£12'
+        name: 'Chicha',
+        description: 'Jarra de Chicha (2 litros)',
+        price: '$7'
     }
 ];
 
 const dessert = [
     {
         id: 1,
-        name: 'Lemon Cake',
-        description: 'flour, sugar, baking powder, lemon',
-        price: '£9'
+        name: 'Pristiños con Miel',
+        description: '4 unidades de pristiños con miel',
+        price: '$5'
     },
     {
         id: 2,
-        name: 'Cinnamon Rolls',
-        description: 'flour, salt, sugar, cinnamon, yeast, sour cream, milk',
-        price: '£11'
+        name: 'Hicos con Queso',
+        description: 'Deliciosos Higos con queso de hoja',
+        price: '$4'
     },
     {
         id: 3,
-        name: 'Vegan Pancakes',
-        description: 'flour, sugar, baking powder, soya milk, blueberries',
-        price: '£8'
+        name: 'Flan de Coco',
+        description: 'Porcion de Flan de Coco',
+        price: '$5'
     }
 ];
 
@@ -100,7 +119,7 @@ function Menu() {
 
             <div className='breakfast my-5'>
                 <div className='container'>
-                    <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Breakfast</h2>
+                    <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Desayunos</h2>
                     <div className='row flex-column-reverse flex-lg-row'>
                         <div className='col-lg-6 d-flex justify-content-center'>
                             <img src={BreakfastImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
@@ -130,7 +149,7 @@ function Menu() {
 
             <div className='lunch bg-dark text-light py-5'>
                 <div className='container'>
-                    <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Lunch</h2>
+                    <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Platos Fuertes</h2>
                     <div className='row'>
                         <div className='col-lg-6 d-flex flex-column justify-content-around'>
                             {lunch.map((lunch) => (
@@ -160,7 +179,7 @@ function Menu() {
 
             <div className='dinner my-5'>
                 <div className='container'>
-                    <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Dinner</h2>
+                    <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Bebidas</h2>
                     <div className='row flex-column-reverse flex-lg-row'>
                         <div className='col-lg-6 d-flex justify-content-center'>
                             <img src={DinnerImg} className='img-fluid w-75 mt-4 mt-lg-0' alt="" />
@@ -190,7 +209,7 @@ function Menu() {
 
             <div className='dessert bg-dark text-light py-5'>
                 <div className='container'>
-                    <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Dessert</h2>
+                    <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Postres</h2>
                     <div className='row'>
                         <div className='col-lg-6 d-flex flex-column justify-content-around'>
                             {dessert.map((dessert) => (
