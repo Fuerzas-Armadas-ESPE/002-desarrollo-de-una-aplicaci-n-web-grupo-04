@@ -14,11 +14,12 @@ function Home() {
             <header className='h-100 min-vh-100 d-flex align-items-center text-light shadow'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-sm-6 d-flex d-sm-block flex-column align-items-center'>
-                            <h2 className='mb-0 text-black fw-bold'>Bienvenido a</h2>
-                            {/* <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>La Mesa de Todos</h1> */}
+                        <div className='col-sm-6 d-flex flex-column align-items-center' id='welcome-section'>
+                            <h2 className='mb-0 text-black fw-bold' id="welcome">Bienvenido a</h2>
                             <img className='logo-restaurant' src={logoR}></img>
-                            <MenuBtn />
+                            <div className='btn-menu'>
+                                <MenuBtn />
+                            </div>
                         </div>
                     </div>
                 </div>
