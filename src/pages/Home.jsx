@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { ImageGallery } from '../components/ImageGallery';
 import { ContactInfo } from '../components/ContactInfo';
 import ContactImage from '../utils/img/contact-img.jpg';
+import logoR from '../utils/img/logo-restaurante.png'
 
 function Home() {
     return (
@@ -15,7 +16,8 @@ function Home() {
                     <div className='row'>
                         <div className='col-sm-6 d-flex d-sm-block flex-column align-items-center'>
                             <h2 className='mb-0 text-black fw-bold'>Bienvenido a</h2>
-                            <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>La Mesa de Todos</h1>
+                            {/* <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>La Mesa de Todos</h1> */}
+                            <img className='logo-restaurant' src={logoR}></img>
                             <MenuBtn />
                         </div>
                     </div>
