@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.css";
+import "./Home.css";
 import { ContactInfo } from "../components/ContactInfo";
 import { Form, Alert } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
@@ -94,14 +95,14 @@ function Contact() {
   };
 
   return (
-    <div className="contact-page">
+    <div className="contact-page" id='find-us-2'>
       <header className="mt-5">
         <div className="container h-100 d-flex align-items-center justify-content-center">
           <h1 className="text-light">Contáctanos</h1>
         </div>
       </header>
 
-      <div className="container my-5">
+      <div className="container my-5" >
         <div className="row">
           <div className="col-lg-6 d-flex align-items-center justify-content-center">
             <ContactInfo />

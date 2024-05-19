@@ -49,6 +49,10 @@ header h1 {
     background: linear-gradient(62deg, #474747 10%, #000000 100%);
 }
 
+#find-us-2{
+    background: linear-gradient(280deg, #ffffff 30%, #000000 330%);
+}
+
 .about-us{
     background-color: aqua;
     padding: 4%
