@@ -26,9 +26,11 @@ function Home() {
     return (
         <div className='home-page'>
             <header
-                className='h-100 min-vh-100 d-flex align-items-center text-light shadow'
-                style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
-            >
+        className='h-100 min-vh-100 d-flex align-items-center text-light shadow'
+        style={{
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${images[currentImageIndex]})`
+        }}
+    >
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-6 d-flex flex-column align-items-center' id='welcome-section'>
